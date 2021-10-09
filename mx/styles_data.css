@@ -1,0 +1,100 @@
+/*                    GENERAL RULES                    */
+header, main, footer {
+	display: inline-block;
+	width: 960px;
+	margin: 0px 140px 0px 160px;
+}
+body {
+	background-color: #dcdcdc;
+	font-family: 'tahoma';
+	font-weight:normal;
+	font-style:normal;
+
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+span {
+	display: inline-block;
+	float: left;
+}
+section, hr {
+	clear: both;
+}
+p {
+	text-align: justify;
+	width: 50%;
+}
+hr {
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+/*                    NAV_LEFT                    */
+
+section.nav_left {
+  height: 100vh;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 50;
+  left: 50;
+  background-color: #dcdcdc;
+  overflow-x: hidden;
+}
+section.nav_left a {
+  padding: 12px 2px 12px 10px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+	transition: 0.5s ease;
+}
+section.nav_left a:hover {
+  color: #ffffff;
+}
+a.back {
+	background-color: #383838;
+	margin-bottom: 20px;
+	text-align: center;
+}
+a.download {
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.5s ease;
+	margin: 3px;
+	padding: 5px;
+}
+
+a.download:hover {
+  background: #cfcfcf;
+}
+
+
+
+
+
+/*                    HEADER                    */
+header div {
+	height: 80px;
+}
+h1 {
+	text-align: center;
+	font-size: 280%;
+}
+
+
+
+div {
+	margin: 10px 40px;
+}
+
+
+

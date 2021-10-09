@@ -1,0 +1,38 @@
+/*                    GENERAL RULES                    */
+header, main, footer {
+	display: inline-block;
+	width: 960px;
+	margin: 0px 150px 0px 150px;
+}
+body {
+	background-color: #dcdcdc;
+	font-family: 'verdana';
+	font-weight:normal;
+	font-style:normal;
+
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+
+
+/*                    LINKS                    */
+
+a {
+	display: block;
+	text-align: center;
+	transition: 0.5s ease;
+	color: black;
+	font-size: 200%;
+	padding: 40px;
+	margin: 70px 50px 0px 50px;
+	text-decoration: none;
+  	border-radius: 20px;
+}
+a:hover {
+	background: #cfcfcf;
+}
+p {
+	font-size: 50%;
+}
